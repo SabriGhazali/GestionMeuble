@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Ajout nouveau Client</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+</head>
+<body>
+    <div class="container">
+        <h3>Ajouter un nouveau Client</h3>
+<form method="get" action="ajout_user.php" class="form-horizontal">
+<div class="form-group">
+    <label class="control-label col-sm-2" for="nom">Nom:</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" id="nom" placeholder="Entrer nom" name="nom">
+    </div>
+</div>
+<div class="form-group">
+<label class="control-label col-sm-2" for="prenom">Prenom:</label>
+</td>
+<div class="col-sm-10">
+<input type="text" class="form-control" id="prenom" placeholder="Entrer prenom" name="prenom">
+      </div>
+    </div>
+<div class="form-group">
+<label class="control-label col-sm-2" for="adresse">Adresse:</label>
+
+<div class="col-sm-10">
+<input type="text" class="form-control" id="adresse" placeholder="Entrer l'Adresse" name="adresse">
+      </div>
+    </div>
+<div class="form-group">
+<label class="control-label col-sm-2" for="cin">Cin:</label>
+
+<div class="col-sm-10">
+
+<input type="text" class="form-control" id="cin" placeholder="Entrer cin" name="cin">
+          </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="cin">Date de livraison</label>
+
+        <div class="col-sm-10">
+            <input type="date" class="form-control" id="date" placeholder="" name="date">
+
+
+        </div>
+    </div>
+
+<center><input type="submit" class="btn btn-primary" value="Ajouter" /><br><a href="aff_user.php">Retour</a>
+</center>
+
+
+
+</form>
+</div>
+</body>
+
+</html>
